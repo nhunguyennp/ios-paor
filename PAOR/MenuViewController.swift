@@ -28,7 +28,6 @@ class MenuViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         practiceButton.isEnabled = checkPAONumbersFilled()
-        dump(PAONumbers)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
