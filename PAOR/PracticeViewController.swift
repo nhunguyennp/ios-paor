@@ -38,17 +38,17 @@ class PracticeViewController: UIViewController {
         buttonPAO2Back.setBackgroundImage(secondPAO?.photo, for: .normal)
         buttonPAO3Back.setBackgroundImage(thirdPAO?.photo, for: .normal)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     //MARK: Private Methods
     private func randomizePAONumbers() -> PAONumber
     {
         let randomPAOIndex = Int(arc4random_uniform(10))
-        print(randomPAOIndex)
-
+        
         return PAONumbers[randomPAOIndex]
     }
     //MARK: Actions
@@ -77,7 +77,7 @@ class PracticeViewController: UIViewController {
         buttonPAO3Back.setTitle(textPAOFront, for: .normal)
     }
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
@@ -107,6 +107,6 @@ class PracticeViewController: UIViewController {
             fatalError("Unexpected Segue Identifier: \(String(describing: segue.identifier))")
         }
     }
-
-
+    
+    
 }
