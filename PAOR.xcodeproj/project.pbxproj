@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8E313C10214C69F700FFE22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E313C0F214C69F700FFE22B /* AppDelegate.swift */; };
-		8E313C12214C69F700FFE22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E313C11214C69F700FFE22B /* ViewController.swift */; };
+		8E313C12214C69F700FFE22B /* PAONumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E313C11214C69F700FFE22B /* PAONumberViewController.swift */; };
 		8E313C15214C69F700FFE22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E313C13214C69F700FFE22B /* Main.storyboard */; };
 		8E313C17214C69FE00FFE22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E313C16214C69FE00FFE22B /* Assets.xcassets */; };
 		8E313C1A214C69FE00FFE22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E313C18214C69FE00FFE22B /* LaunchScreen.storyboard */; };
 		8E313C25214C69FE00FFE22B /* PAORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E313C24214C69FE00FFE22B /* PAORTests.swift */; };
+		8E313C32214CAC9700FFE22B /* PAONumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E313C31214CAC9700FFE22B /* PAONumber.swift */; };
+		8EA97D03214E4243006C18C7 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA97D02214E4243006C18C7 /* PracticeViewController.swift */; };
+		8EA97D05214E5F7B006C18C7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA97D04214E5F7B006C18C7 /* MenuViewController.swift */; };
+		8EE0C68B214DAA53004C6894 /* PAONumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0C68A214DAA53004C6894 /* PAONumberTableViewCell.swift */; };
+		8EE0C68D214DAB55004C6894 /* PAONumberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0C68C214DAB55004C6894 /* PAONumberTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,7 @@
 /* Begin PBXFileReference section */
 		8E313C0C214C69F700FFE22B /* PAOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E313C0F214C69F700FFE22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E313C11214C69F700FFE22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E313C11214C69F700FFE22B /* PAONumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAONumberViewController.swift; sourceTree = "<group>"; };
 		8E313C14214C69F700FFE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E313C16214C69FE00FFE22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E313C19214C69FE00FFE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		8E313C20214C69FE00FFE22B /* PAORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E313C24214C69FE00FFE22B /* PAORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAORTests.swift; sourceTree = "<group>"; };
 		8E313C26214C69FE00FFE22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E313C31214CAC9700FFE22B /* PAONumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAONumber.swift; sourceTree = "<group>"; };
+		8EA97D02214E4243006C18C7 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		8EA97D04214E5F7B006C18C7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8EE0C68A214DAA53004C6894 /* PAONumberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAONumberTableViewCell.swift; sourceTree = "<group>"; };
+		8EE0C68C214DAB55004C6894 /* PAONumberTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAONumberTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				8E313C0F214C69F700FFE22B /* AppDelegate.swift */,
-				8E313C11214C69F700FFE22B /* ViewController.swift */,
+				8E313C11214C69F700FFE22B /* PAONumberViewController.swift */,
+				8E313C31214CAC9700FFE22B /* PAONumber.swift */,
+				8EE0C68A214DAA53004C6894 /* PAONumberTableViewCell.swift */,
+				8EE0C68C214DAB55004C6894 /* PAONumberTableViewController.swift */,
+				8EA97D04214E5F7B006C18C7 /* MenuViewController.swift */,
+				8EA97D02214E4243006C18C7 /* PracticeViewController.swift */,
 				8E313C13214C69F700FFE22B /* Main.storyboard */,
 				8E313C16214C69FE00FFE22B /* Assets.xcassets */,
 				8E313C18214C69FE00FFE22B /* LaunchScreen.storyboard */,
@@ -197,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E313C12214C69F700FFE22B /* ViewController.swift in Sources */,
+				8E313C12214C69F700FFE22B /* PAONumberViewController.swift in Sources */,
+				8E313C32214CAC9700FFE22B /* PAONumber.swift in Sources */,
+				8EE0C68D214DAB55004C6894 /* PAONumberTableViewController.swift in Sources */,
+				8EA97D05214E5F7B006C18C7 /* MenuViewController.swift in Sources */,
+				8EA97D03214E4243006C18C7 /* PracticeViewController.swift in Sources */,
 				8E313C10214C69F700FFE22B /* AppDelegate.swift in Sources */,
+				8EE0C68B214DAA53004C6894 /* PAONumberTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
