@@ -97,7 +97,6 @@ class MenuViewController: UIViewController {
         {
             os_log("PAO List filled", log: OSLog.default, type: .debug)
             practiceButton.isEnabled = true
-            dump(PAONumbers)
         }
         else
         {
