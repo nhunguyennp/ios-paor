@@ -250,11 +250,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Iad-iL-T4u">
-                                <rect key="frame" x="145.5" y="131.5" width="376" height="112"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Iad-iL-T4u">
+                                <rect key="frame" x="100" y="113.5" width="467" height="149"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17z-iG-1b6">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="112"/>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="200" placeholderIntrinsicHeight="200" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17z-iG-1b6">
+                                        <rect key="frame" x="0.0" y="0.0" width="149" height="149"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="17z-iG-1b6" secondAttribute="height" multiplier="1:1" id="kFN-AH-eNw"/>
                                         </constraints>
@@ -262,14 +262,14 @@
                                             <action selector="flipFirstPAO:" destination="0gV-5B-gZv" eventType="touchUpInside" id="QSo-Ea-neo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUu-mc-Myj">
-                                        <rect key="frame" x="132" y="0.0" width="112" height="112"/>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="200" placeholderIntrinsicHeight="200" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUu-mc-Myj">
+                                        <rect key="frame" x="159" y="0.0" width="149" height="149"/>
                                         <connections>
                                             <action selector="flipSecondPAO:" destination="0gV-5B-gZv" eventType="touchUpInside" id="2Pz-ou-R91"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm3-ou-QBw">
-                                        <rect key="frame" x="264" y="0.0" width="112" height="112"/>
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="200" placeholderIntrinsicHeight="200" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm3-ou-QBw">
+                                        <rect key="frame" x="318" y="0.0" width="149" height="149"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Qm3-ou-QBw" secondAttribute="height" multiplier="1:1" id="I4t-DS-lOH"/>
                                         </constraints>
@@ -315,8 +315,8 @@
                         <constraints>
                             <constraint firstItem="tBM-S9-jrN" firstAttribute="bottom" secondItem="kNM-Xk-9xI" secondAttribute="bottom" constant="40" id="H9n-rC-RVk"/>
                             <constraint firstItem="Iad-iL-T4u" firstAttribute="centerY" secondItem="ftw-9p-taV" secondAttribute="centerY" id="JSD-14-l4P"/>
-                            <constraint firstAttribute="trailing" secondItem="Iad-iL-T4u" secondAttribute="trailing" constant="145.5" id="PFb-2W-8TD"/>
-                            <constraint firstItem="Iad-iL-T4u" firstAttribute="leading" secondItem="ftw-9p-taV" secondAttribute="leading" constant="145.5" id="RYI-bW-b01"/>
+                            <constraint firstAttribute="trailing" secondItem="Iad-iL-T4u" secondAttribute="trailing" constant="100" id="PFb-2W-8TD"/>
+                            <constraint firstItem="Iad-iL-T4u" firstAttribute="leading" secondItem="ftw-9p-taV" secondAttribute="leading" constant="100" id="RYI-bW-b01"/>
                             <constraint firstItem="Iad-iL-T4u" firstAttribute="centerX" secondItem="ftw-9p-taV" secondAttribute="centerX" id="UCL-pv-GrC"/>
                             <constraint firstItem="tBM-S9-jrN" firstAttribute="trailing" secondItem="kNM-Xk-9xI" secondAttribute="trailing" constant="40" id="XyL-LX-85Z"/>
                             <constraint firstItem="kNM-Xk-9xI" firstAttribute="leading" secondItem="tBM-S9-jrN" secondAttribute="leading" constant="40" id="xLe-8r-QX0"/>
